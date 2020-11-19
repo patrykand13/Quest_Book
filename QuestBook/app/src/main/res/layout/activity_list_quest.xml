@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ListQuestActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewListQuest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/questName"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="81dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/nazwaListy"
+            app:layout_constraintBottom_toTopOf="@+id/notesBTquest"
+            app:layout_constraintEnd_toStartOf="@+id/addBTquest"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/notesBTquest"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="goNote"
+            android:text="@string/notatki"
+            android:textAllCaps="false"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/questsBTquest"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/questsBTquest"
+            android:layout_width="211dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="goQuest"
+            android:text="@string/lista"
+            android:textAllCaps="false"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/addBTquest"
+            android:layout_width="159dp"
+            android:layout_height="185dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="308dp"
+            android:background="@drawable/button_add_custom"
+            android:gravity="center"
+            android:text="@string/plus"
+            android:textAllCaps="false"
+            android:textColor="#FFFF"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/questName" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

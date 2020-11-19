@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/cardViewTask">
+
+    <TextView
+        android:id="@+id/titleCardViewQuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Title.."
+        android:textSize="25sp"
+        android:background="#DDDD"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/buttonCardViewQuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:text="Button" />
+</LinearLayout>

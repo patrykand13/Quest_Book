@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quest Book</string>
+    <string name="notatki">Notatki</string>
+    <string name="lista">Lista zadań</string>
+    <string name="plus">+</string>
+    <string name="title">Title...</string>
+    <string name="save">SAVE</string>
+    <string name="clickNote">Click to take note...</string>
+    <string name="tytulZadania">Tytuł zadania: </string>
+    <string name="nazwaZadania">Nazwa Zadania</string>
+    <string name="nazwaListy">Nazwa Listy Zadań</string>
+    <string name="dodaj">Dodaj zadanie</string>
+    <string name="odswiez">Odswiez</string>
+</resources>

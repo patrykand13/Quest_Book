@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NotesActivity"
+    android:orientation="vertical"
+    android:background="#DDDD">
+    <EditText
+        android:textSize="24sp"
+        android:id="@+id/titleNote"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/title"
+        android:background="#FFFF"
+        android:inputType="textLongMessage"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/saveBT"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:background="@drawable/button_add_custom"
+        android:text="@string/save"
+        android:onClick="saveNote"/>
+    <EditText
+        android:id="@+id/messageNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="10"
+        android:background="#FFFF"
+        android:gravity="top"
+        android:hint="@string/clickNote"
+        android:inputType="textMultiLine"
+        android:textSize="18sp"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
