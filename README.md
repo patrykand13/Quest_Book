@@ -6,6 +6,7 @@ An application that allows you to create lists and notes.
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Features](#features)
+* [Instruction](#instruction)
 
 
 ## General info
@@ -35,3 +36,9 @@ A few of the things you can do with QuestBook:
 ![NotesView](./foto/notesView.jpg)
 ![TaskList](./foto/taksList.jpg)
 ![QuestList](./foto/questList.jpg)
+
+## Instruction
+
+![NotesInstruction](./foto/notesInstr.jpg)
+![QuestListInstruction](./foto/questInstr.jpg)
+![TaskInstruction](./foto/taskInstr.jpg)
