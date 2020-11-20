@@ -33,5 +33,5 @@ A few of the things you can do with QuestBook:
 
 ![Notes](./foto/notes.jpg)
 ![NotesView](./foto/notesView.jpg)
-![TaskList](./foto/taskList.jpg)
+![TaskList](./foto/taksList.jpg)
 ![QuestList](./foto/questList.jpg)
